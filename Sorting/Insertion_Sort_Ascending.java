@@ -16,7 +16,7 @@ public class Insertion_Sort_Ascending
     {
       key=ar[i];
       j=i-1;
-      while(ar[j]>ar[j+1] && j>=0)
+      while(j>=0 && ar[j]>key)
       {
         ar[j+1]=ar[j];
         j--;
